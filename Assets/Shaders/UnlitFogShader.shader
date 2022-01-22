@@ -2,7 +2,7 @@ Shader "Unlit/UnlitFogShader"
 {
     Properties
     {
-        _MainTex ("Texture", 2D) = "white" {}
+        [PerRendererData] _MainTex ("Texture", 2D) = "white" {}
     }
     SubShader
     {
